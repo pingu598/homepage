@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import { Container } from 'react-bootstrap';
 import './App.css';
+import CardIntro from './components/CardIntro';
+import TextAndPhoto from './components/PhotoAndText';
+import Intern from './components/Intern';
+import ContactHere from './components/ContactHere';
+import SocialMedia from './components/SocialMedia';
+import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>     
+      <Container style={{width: "40%"}}>
+        <CardIntro/>
+        <TextAndPhoto/>
+        <Intern/>
+        <Projects/>
+        <ContactHere/>
+        <SocialMedia/>
+      </Container>
     </div>
   );
 }
