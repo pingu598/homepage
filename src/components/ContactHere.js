@@ -17,7 +17,7 @@ const ContactHere = () => {
                     <h1 style={{color: "white"}}>             
                     Löydät minut näistä paikoista
                     </h1>
-                    <p style={{color: "black", marginTop: "60px", marginBottom: "20px", fontSize: "40px"}}>↓</p>
+                    <p style={{color: "black", fontSize: "40px"}}>↓</p>
                     </Card.Body>
                 </Card.ImgOverlay>           
             </Card>

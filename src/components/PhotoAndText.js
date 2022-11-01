@@ -17,8 +17,8 @@ const Text1 = () => {
                         </p>  
                     </ReactCardFlip>
                 </Col>
-                <Col>
-                <img src="Photo1.jpg" style={{float: "right", borderRadius: "1%"}} alt=""></img>
+                <Col className="justify-content-md-center">
+                    <img src="Photo1.jpg" class="rounded mx-auto d-block" alt=""></img>
                 </Col>
             </Row>
         </div> 

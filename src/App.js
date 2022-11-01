@@ -10,7 +10,7 @@ import Projects from './components/Projects';
 function App() {
   return (
     <div>     
-      <Container style={{width: "40%"}}>
+      <Container>
         <CardIntro/>
         <TextAndPhoto/>
         <Intern/>
